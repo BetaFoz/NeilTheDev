@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto Mono", serif;
+    background-color: #4f5f76;
+    color: #e0e2e7;
+  }
+
+#soon {
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 10vw;
+    font-weight: 800;
+    letter-spacing: 3.75pt;
+    padding-top: 50px;
+}
+
+#skills {
+    font-size: 2vw;
+    text-align: center;
+}
+
