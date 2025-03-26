@@ -114,19 +114,16 @@ body {
     flex-direction: column;
     min-height: 200px;
     max-width: 1200px;
-    background-color: #e0e2e7;
     margin: 50px auto 50px auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
 }
 
 #contact-title {
     font-size: 36px;
-
     font-weight: 800;
     text-align: center;
     letter-spacing: 3.75pt;
-    color: #764f5f;
+    color: #e0e2e7;
 }
 
 #contact {
@@ -136,7 +133,7 @@ body {
     justify-content: center;
     padding-top: 20px;
     font-size: 18px;
-    color: #4f5f76;
+    color: #e0e2e7;
     font-weight: 600;
 }
 
@@ -188,8 +185,8 @@ textarea::placeholder {
 
 input[type=submit], input[type=reset] {
     font-family: "Roboto Mono", serif;
-    background-color: #4f5f76;
-    color: #ffffff;
+    background-color: #e0e2e7;
+    color: #000000;
     font-weight: 600;
     padding: 12px 20px;
     border: none;
@@ -199,10 +196,12 @@ input[type=submit], input[type=reset] {
 
 input[type=submit]:hover {
     background-color: #5f764f;
+    color: #ffffff;
 }
 
 input[type=reset]:hover {
     background-color: #764f5f;
+    color: #ffffff;
 }
 
 
