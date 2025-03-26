@@ -136,6 +136,8 @@ body {
     justify-content: center;
     padding-top: 20px;
     font-size: 18px;
+    color: #4f5f76;
+    font-weight: 600;
 }
 
 #contact i {
