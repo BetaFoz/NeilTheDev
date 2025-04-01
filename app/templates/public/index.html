@@ -63,13 +63,22 @@
         </div>
 
         <div id="contact-form">
-            <form action="mailto:neil@neilthedev.com" method="post" enctype="text/plain">
+            <form action="{{ url_for('send_email') }}" method="post" style="...">
                 <input type="text" id="contact-name" name="contact-name" placeholder="Name">
                 <input type="text" id="contact-email" name="contact-email" placeholder="Email">
                 <textarea id="contact-message" name="contact-message" placeholder="Message"></textarea>
                 <input type="submit" value="Submit">
                 <input type="reset" value="Clear">
             </form>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <ul class="flashes">
+                        {% for message in messages %}
+                            <li>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}
         </div>
 
     </div>
